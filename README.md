@@ -6,6 +6,12 @@ A .NET headless CMS with event sourcing, CQRS, and a rich content modeling syste
 
 > **Credits**: Built on [Squidex](https://squidex.io) by [Sebastian Stehle](https://github.com/Squidex). All trademarks belong to their respective owners.
 
+## Local Development
+
+    docker compose up
+
+Visit http://localhost:5000. Login: admin@example.com / password.
+
 ## Deploy on StackBlaze
 
 [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
@@ -85,12 +91,6 @@ flowchart LR
 **Best for:** Production workloads, high-traffic applications, business-critical deployments.
 
 </details>
-
-## Local Development
-
-    docker compose up
-
-Visit http://localhost:5000. Login: admin@example.com / password.
 
 ---
 
