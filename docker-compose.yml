@@ -1,0 +1,21 @@
+services:
+  squidex:
+    image: squidex/squidex:latest
+    ports:
+      - "5000:80"
+    environment:
+      - URLS__BASEURL=http://localhost:5000
+      - EVENTSTORE__TYPE=MongoDB
+      - EVENTSTORE__MONGODB__CONFIGURATION=mongodb://mongo
+      - STORE__TYPE=MongoDB
+      - STORE__MONGODB__CONFIGURATION=mongodb://mongo
+      - IDENTITY__ADMINEMAIL=admin@example.com
+      - IDENTITY__ADMINPASSWORD=password
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:7
+    volumes:
+      - mongo_data:/data/db
+volumes:
+  mongo_data:

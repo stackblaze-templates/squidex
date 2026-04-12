@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: squidex
+    runtime: docker
+    plan: starter
+    autoDeploy: false
+    envVars:
+      - key: URLS__BASEURL
+        value: https://squidex.example.com
+      - key: EVENTSTORE__TYPE
+        value: MongoDB
+      - key: STORE__TYPE
+        value: MongoDB
+      - key: IDENTITY__ADMINEMAIL
+        value: admin@example.com
+      - key: IDENTITY__ADMINPASSWORD
+        generateValue: true
