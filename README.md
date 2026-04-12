@@ -1,18 +1,12 @@
-# Squidex
+<p align="center"><img src="logo.png" alt="squidex" width="120"></p>
 
-<p align="center"><img src="logo.png" alt="Squidex" width="120"></p>
-
-
-[![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com)
-[![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/squidex/actions)
+# Squidex [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/squidex/actions) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 A .NET headless CMS with event sourcing, CQRS, and a rich content modeling system. Provides GraphQL and REST APIs with real-time updates.
 
 > **Credits**: Built on [Squidex](https://squidex.io) by [Sebastian Stehle](https://github.com/Squidex). All trademarks belong to their respective owners.
 
 ## Deploy on StackBlaze
-
-[![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 ## Local Development
 
